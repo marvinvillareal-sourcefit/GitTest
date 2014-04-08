@@ -27,7 +27,7 @@
 }
 - (IBAction)didTap:(UIButton *)sender {
     
-    [[[UIAlertView alloc] initWithTitle:@"Awesome" message:@"We're done." delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
+    [[[UIAlertView alloc] initWithTitle:@"Awesome!!!" message:@"We're done." delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
 }
 
 @end
