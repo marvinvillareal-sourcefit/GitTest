@@ -28,6 +28,8 @@
 - (IBAction)didTap:(UIButton *)sender {
     
     [[[UIAlertView alloc] initWithTitle:@"Awesome!!!" message:@"We're done." delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
+    
+    assert(@"There was an error from jenkins CI");
 }
 
 @end
